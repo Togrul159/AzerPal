@@ -1,0 +1,208 @@
+@media only screen and (max-width:992px) {
+    #First {
+        background-image: url(../img/FirstBack.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto !important;
+        position: relative;
+        bottom: 95px;
+        z-index: 2;
+    }
+    #TopNav .social {
+        display: flex;
+        justify-content: space-evenly !important;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #First .py-6 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    #Sertificate {
+        height: 100% !important;
+    }
+    #Sertificate .right-content {
+        display: flex;
+        justify-content: center !important;
+    }
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        background: linear-gradient(112.95deg, #98C2ED -18.54%, #71C3F1 31.49%, #1C9CE7 75.66%);
+        box-shadow: 0px 4px 25px 0px #0000001A;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .navbar-nav li {
+        margin-bottom: 10px;
+        border-bottom: 2px solid #fff !important;
+    }
+    .contactTop {
+        text-align: center;
+        margin: 5px 0;
+    }
+    #About .left-content {
+        display: flex;
+        justify-content: center !important;
+    }
+    #About .left-content img {
+        width: 80% !important;
+    }
+    #About {
+        background-image: none !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    #About .row {
+        flex-direction: column-reverse !important;
+    }
+    #About .right-content {
+        text-align: left !important;
+    }
+    #About .tP {
+        display: flex;
+        justify-content: center !important;
+        margin-bottom: 40px;
+    }
+    #About .right-content span {
+        color: #28394B;
+        font-size: 18px !important;
+        letter-spacing: 1px;
+    }
+    #Difference .left-content ul {
+        list-style: none;
+    }
+    #Difference .left-content ul li {
+        font-size: 18px !important;
+        margin: 15px 0;
+    }
+    #Difference .right-content img {
+        width: 100% !important;
+        border-radius: 50px 0 50px 0px;
+        box-shadow: 0px 4px 15px 0px #0000001a;
+    }
+    #Product .filter {
+        background: linear-gradient(133.61deg, #1481C1 25.61%, #2096DA 85.78%);
+        box-shadow: 0px 4px 15px 0px #0000001a;
+        width: 100% !important;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .tP {
+        display: flex;
+        justify-content: center !important;
+        margin-bottom: 40px;
+    }
+    .t {
+        margin: 0 !important;
+    }
+    #Product .cardProduct {
+        width: 100%;
+        height: 300px;
+        margin: 15px 0 !important;
+        background: linear-gradient(180deg, #E2E2E2 0%, #F7F7F7 100%);
+        box-shadow: 0px 4px 15px 0px #0000001a;
+        border-radius: 15px;
+    }
+    .Tcard {
+        margin: 15px 0;
+    }
+    #Location form {
+        margin-top: 20px;
+    }
+    #Location form .form1 {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+    }
+    #Location .my-6 {
+        margin: 0 !important;
+    }
+    #System .socilaInfo .iconDiv {
+        width: 40px;
+        height: 40px;
+        padding: 15px !important;
+        margin-right: 15px;
+        border-radius: 50%;
+        background-color: #30ACF4;
+        box-shadow: 0px 4px 15px 0px #0000001a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #System .RightSystem {
+        border-left: none !important;
+        height: 100%;
+        margin-top: 10px;
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width:385px) {
+    #Sertificate .left-content h1 {
+        color: #28394B;
+        font-size: 24px !important;
+        font-weight: 500;
+    }
+    #Sertificate .left-content span {
+        color: #28394B;
+        font-size: 14px !important;
+    }
+    #First .first-left h1 {
+        color: #fff;
+        font-size: 36px !important;
+        margin-bottom: 20px;
+    }
+    #First .first-left span {
+        color: #fff;
+        font-weight: 300;
+        font-size: 18px !important;
+    }
+    .navbar-brand img {
+        width: 200px !important;
+    }
+    .slick-track {
+        opacity: 1;
+        transform: translate3d(-592px, 0px, 0px);
+    }
+    .coating-1 {
+        margin: 0 !important;
+    }
+    #First {
+        background-image: url(../img/FirstBack.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 110vh;
+        position: relative;
+        bottom: 80px !important;
+        z-index: 2;
+    }
+    #About .right-content span {
+        color: #28394B;
+        font-size: 14px !important;
+        letter-spacing: 1px;
+    }
+    #Difference .left-content ul li {
+        font-size: 16px !important;
+        margin: 15px 0;
+    }
+    #ProductModal .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 0 !important;
+    }
+}
