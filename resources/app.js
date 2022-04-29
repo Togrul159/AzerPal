@@ -60,7 +60,7 @@ $('.counting').each(function() {
     $({ countNum: $this.text() }).animate({
         countNum: countTo
     }, {
-        duration: 4000,
+        duration: 8000,
         easing: 'linear',
         step: function() {
             $this.text(Math.floor(this.countNum));
@@ -83,31 +83,6 @@ $(".readmore-link").click(function(e) {
         $(e.target).addClass("expand");
     }
 });
-
-// $(document).ready(function() {
-//     $(".toggle1").click(function() {
-//         var elem = $(".toggle1").text();
-//         if (elem == "￬") {
-//             $(".toggle1").text("￪");
-//             $(".text1").slideDown();
-//         } else {
-//             $(".toggle1").text("￬");
-//             $(".text1").slideUp();
-//         }
-//     });
-// });
-// $(document).ready(function() {
-//     $(".toggle2").click(function() {
-//         var elem = $(".toggle2").text();
-//         if (elem == "￬") {
-//             $(".toggle2").text("￪");
-//             $(".text2").slideDown();
-//         } else {
-//             $(".toggle2").text("￬");
-//             $(".text2").slideUp();
-//         }
-//     });
-// });
 //   See more end
 
 // Loading Start

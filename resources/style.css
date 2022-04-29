@@ -51,6 +51,10 @@
     border-radius: 10px 0 0 10px;
 }
 
+.titlePage h4 {
+    margin: 0;
+}
+
 
 /* Top Nav start */
 
@@ -1171,7 +1175,6 @@ footer .FooterSocial a:hover i {
 }
 
 .loading:before {
-    font-family: 'Lobster', cursive;
     font-size: 20px;
     letter-spacing: 1px;
     color: #0093E5;

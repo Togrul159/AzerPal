@@ -98,6 +98,17 @@
         padding: 10px;
         border-radius: 15px;
     }
+    #Services .filter {
+        background: linear-gradient(133.61deg, #1481C1 25.61%, #2096DA 85.78%);
+        box-shadow: 0px 4px 15px 0px #0000001a;
+        width: 100% !important;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 15px;
+    }
     .tP {
         display: flex;
         justify-content: center !important;
@@ -147,6 +158,9 @@
         height: 100%;
         margin-top: 10px;
         padding-left: 0px !important;
+    }
+    .topLog img {
+        width: 50% !important;
     }
 }
 
